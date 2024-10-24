@@ -8,7 +8,7 @@ alert(a);
 a = 20;
 alert(a);
 let b = 1 + 2 + 3;
-alert(b)*/
+alert(b)
 //18#1
 let a1 = 10;
 let b1 = 2;
@@ -32,4 +32,7 @@ let b3 = 5;
 let c3 = a3 - b3;
 let d3 = 7;
 let result1 = c3 + d3;
-alert(result1);
+alert(result1);*/
+//19-20
+let a = 8 * 4 / 2 / 2;
+alert(a);
