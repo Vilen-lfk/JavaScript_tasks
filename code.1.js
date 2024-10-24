@@ -58,7 +58,7 @@ let zn = 2;
 alert(zn ** 10);
 //27
 let a = (3 * 2) ** 3;
-alert(a);*/
+alert(a);
 //28
 let str = "Vilen";
 let str1 = "Karamurzaev"
@@ -67,3 +67,11 @@ alert(str1);
 let java = "java";
 let script = "script";
 alert(java + " " + script);
+//30
+let mkm = "slmlvdsmsvsvs";
+alert(mkm.length);*/
+//31
+let str1 = 'xxx';
+let str2 = 'yyy';
+let txt  = `aaa ' ${str1} ' bbb ' ${str2} ' ccc1`; 
+alert(txt);
