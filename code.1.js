@@ -32,7 +32,7 @@ let b3 = 5;
 let c3 = a3 - b3;
 let d3 = 7;
 let result1 = c3 + d3;
-alert(result1);*/
+alert(result1);
 //19-20
 let a = 8 * 4 / 2 / 2;
 alert(a);
@@ -42,5 +42,10 @@ alert(b);
 //22
 let c = 1.5;
 let d = 0.75;
-alert(c + d);
-//23
+alert(c + d);*/
+//23#1
+let n = -100;
+alert(n);
+//23#2
+let n1 = 50;
+alert(-n1);
