@@ -1,1 +1,3 @@
-alert('text');
+"use strict";
+alert('text!');//iohhoho
+/*fd;l,vldv; */
