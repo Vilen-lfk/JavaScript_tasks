@@ -42,7 +42,7 @@ alert(b);
 //22
 let c = 1.5;
 let d = 0.75;
-alert(c + d);*/
+alert(c + d);
 //23#1
 let n = -100;
 alert(n);
@@ -56,3 +56,14 @@ alert(m % m1);
 //26
 let zn = 2;
 alert(zn ** 10);
+//27
+let a = (3 * 2) ** 3;
+alert(a);*/
+//28
+let str = "Vilen";
+let str1 = "Karamurzaev"
+alert(str);
+alert(str1);
+let java = "java";
+let script = "script";
+alert(java + " " + script);
