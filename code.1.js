@@ -49,3 +49,10 @@ alert(n);
 //23#2
 let n1 = 50;
 alert(-n1);
+//25
+let m = 10;
+let m1 = 3;
+alert(m % m1);
+//26
+let zn = 2;
+alert(zn ** 10);
