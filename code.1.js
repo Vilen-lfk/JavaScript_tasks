@@ -1,3 +1,5 @@
 "use strict";
-alert('text!');//iohhoho
-/*fd;l,vldv; */
+alert('text!');
+let num;
+num = 123;
+alert(num);
