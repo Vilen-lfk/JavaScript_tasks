@@ -36,3 +36,11 @@ alert(result1);*/
 //19-20
 let a = 8 * 4 / 2 / 2;
 alert(a);
+//21
+let b = 2 * (2 + 4 * (3 + 1));
+alert(b);
+//22
+let c = 1.5;
+let d = 0.75;
+alert(c + d);
+//23
