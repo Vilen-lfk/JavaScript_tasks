@@ -79,7 +79,7 @@ alert(txt);
 let str = `a
 b
 c`; // так будет работать
-alert(str);*/
+alert(str);
 //34
 let nu;
 alert(nu);
@@ -94,4 +94,12 @@ alert(nu3);
 //37
 let vss = "abc";
 let ssv = "bmx"
-alert(vss * ssv);
+alert(vss * ssv);*/
+//38
+alert( 10 / 0); 
+alert(-10 / 0);
+//39
+let kip = 88769;
+let kip1 = 34546;
+let kip2 = 53452;
+console.log(kip, kip1, kip2);
