@@ -75,3 +75,8 @@ let str1 = 'xxx';
 let str2 = 'yyy';
 let txt  = `aaa ' ${str1} ' bbb ' ${str2} ' ccc1`; 
 alert(txt);
+//32
+let str = `a
+b
+c`; // так будет работать
+alert(str);
