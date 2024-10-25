@@ -69,7 +69,7 @@ let script = "script";
 alert(java + " " + script);
 //30
 let mkm = "slmlvdsmsvsvs";
-alert(mkm.length);*/
+alert(mkm.length);
 //31
 let str1 = 'xxx';
 let str2 = 'yyy';
@@ -79,4 +79,19 @@ alert(txt);
 let str = `a
 b
 c`; // так будет работать
-alert(str);
+alert(str);*/
+//34
+let nu;
+alert(nu);
+//35
+let nu1 = null;
+alert(nu1);
+//36
+let nu2 = true;
+let nu3 = false;
+alert(nu2);
+alert(nu3);
+//37
+let vss = "abc";
+let ssv = "bmx"
+alert(vss * ssv);
