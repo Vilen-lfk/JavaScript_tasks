@@ -103,3 +103,9 @@ let kip = 88769;
 let kip1 = 34546;
 let kip2 = 53452;
 console.log(kip, kip1, kip2);
+//40
+let mum = 456;
+let mum1 = "Vilen";
+console.log(mum, mum1);
+//41
+alert(vvv);
