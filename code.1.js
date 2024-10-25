@@ -108,4 +108,7 @@ let mum = 456;
 let mum1 = "Vilen";
 console.log(mum, mum1);
 //41
-alert(vvv);
+//alert(vvv);
+//42
+const PI = 3.14;
+alert(PI);
