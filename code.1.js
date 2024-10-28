@@ -114,7 +114,7 @@ const PI = 3.14;
 alert(PI);
 //43
 let a = '' + 3 + 1;
-alert(a);*/
+alert(a);
 //44
 let b = '10';
 let c = '20';
@@ -125,3 +125,10 @@ alert( '2' + Number('3') );
 let d = '2';
 let e = '3';
 alert(+d + +e); // выведет '23'
+//46
+alert(Number('2s'))*/
+//47
+let mun = parseInt('5px');
+let mun1 = parseFloat('6.75px');
+alert(mun + mun1 + 'px');
+
