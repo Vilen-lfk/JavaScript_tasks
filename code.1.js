@@ -94,7 +94,7 @@ alert(nu3);
 //37
 let vss = "abc";
 let ssv = "bmx"
-alert(vss * ssv);*/
+alert(vss * ssv);
 //38
 alert( 10 / 0); 
 alert(-10 / 0);
@@ -112,3 +112,12 @@ console.log(mum, mum1);
 //42
 const PI = 3.14;
 alert(PI);
+//43
+let a = '' + 3 + 1;
+alert(a);*/
+//44
+let b = '10';
+let c = '20';
+alert(Number(b) + Number(c));
+alert(2 + Number('3'));
+alert( '2' + Number('3') );
