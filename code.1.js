@@ -141,3 +141,8 @@ alert(String(num).length);
 let num1 = 56788;
 let num2 = 65879;
 alert(String(num1).length + String(num2).length);
+//50
+alert( String(true) + Number(true)); 
+//51
+let test = Boolean(1 / 0);
+alert(test);
