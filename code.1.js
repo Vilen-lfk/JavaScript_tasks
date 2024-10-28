@@ -121,3 +121,7 @@ let c = '20';
 alert(Number(b) + Number(c));
 alert(2 + Number('3'));
 alert( '2' + Number('3') );
+//45
+let d = '2';
+let e = '3';
+alert(+d + +e); // выведет '23'
