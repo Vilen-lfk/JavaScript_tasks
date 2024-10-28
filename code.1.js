@@ -126,7 +126,7 @@ let d = '2';
 let e = '3';
 alert(+d + +e); // выведет '23'
 //46
-alert(Number('2s'))*/
+alert(Number('2s'))
 //47
 let mun = parseInt('5px');
 let mun1 = parseFloat('6.75px');
@@ -134,4 +134,10 @@ alert(mun + mun1 + 'px');
 //48
 let num1 = String(78);
 let num2 = String(56);
-alert(num1 + num2);
+alert(num1 + num2);*/
+//49
+let num = 14959696967970;
+alert(String(num).length); 
+let num1 = 56788;
+let num2 = 65879;
+alert(String(num1).length + String(num2).length);
