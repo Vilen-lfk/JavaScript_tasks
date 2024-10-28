@@ -131,4 +131,7 @@ alert(Number('2s'))*/
 let mun = parseInt('5px');
 let mun1 = parseFloat('6.75px');
 alert(mun + mun1 + 'px');
-
+//48
+let num1 = String(78);
+let num2 = String(56);
+alert(num1 + num2);
