@@ -134,7 +134,7 @@ alert(mun + mun1 + 'px');
 //48
 let num1 = String(78);
 let num2 = String(56);
-alert(num1 + num2);*/
+alert(num1 + num2);
 //49
 let num = 14959696967970;
 alert(String(num).length); 
@@ -145,4 +145,15 @@ alert(String(num1).length + String(num2).length);
 alert( String(true) + Number(true)); 
 //51
 let test = Boolean(1 / 0);
-alert(test);
+alert(test);*/
+//52
+let d = 'abcde';
+let num = 0;
+let num1 = 1;
+let num2 = 2;
+let num3 = 3;
+let num4 = 4;
+alert(d[num]);
+alert(d[num2]);
+alert(d[num4]);
+alert(d[num4]+d[num3]+d[num2]+d[num1]+d[num]);
