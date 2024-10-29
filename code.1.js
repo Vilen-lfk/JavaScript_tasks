@@ -156,7 +156,7 @@ let num4 = 4;
 alert(d[num]);
 alert(d[num2]);
 alert(d[num4]);
-alert(d[num4]+d[num3]+d[num2]+d[num1]+d[num]);*/
+alert(d[num4]+d[num3]+d[num2]+d[num1]+d[num]);
 //53
 let g = 'abcde';
 let last = g.length - 1;
@@ -171,4 +171,17 @@ alert(Number(task[0]) + Number(task[1]) + Number(task[2]) + Number(task[3]) + Nu
 //55
 let task1 = String(12345);
 alert(Number(task1[0]) + Number(task1[1]) + Number(task1[2]) + Number(task1[3]) + Number(task1[4]))
-alert(task[4] + task[3] + task[2] + task[1] + task[0]);
+alert(task[4] + task[3] + task[2] + task[1] + task[0]);*/
+//57-58
+let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
+//59
+let num1 = 10;
+num1++;
+num1++;
+num1--;
+alert(num1);
