@@ -145,7 +145,7 @@ alert(String(num1).length + String(num2).length);
 alert( String(true) + Number(true)); 
 //51
 let test = Boolean(1 / 0);
-alert(test);*/
+alert(test);
 //52
 let d = 'abcde';
 let num = 0;
@@ -156,4 +156,19 @@ let num4 = 4;
 alert(d[num]);
 alert(d[num2]);
 alert(d[num4]);
-alert(d[num4]+d[num3]+d[num2]+d[num1]+d[num]);
+alert(d[num4]+d[num3]+d[num2]+d[num1]+d[num]);*/
+//53
+let g = 'abcde';
+let last = g.length - 1;
+let last1 = g.length - 2;
+let last2 = g.length - 3;
+alert(g[last]);
+alert(g[last1]);
+alert(g[last2]);
+//54
+let task = '12345';
+alert(Number(task[0]) + Number(task[1]) + Number(task[2]) + Number(task[3]) + Number(task[4]))
+//55
+let task1 = String(12345);
+alert(Number(task1[0]) + Number(task1[1]) + Number(task1[2]) + Number(task1[3]) + Number(task1[4]))
+alert(task[4] + task[3] + task[2] + task[1] + task[0]);
