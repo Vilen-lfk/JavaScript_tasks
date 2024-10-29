@@ -171,7 +171,7 @@ alert(Number(task[0]) + Number(task[1]) + Number(task[2]) + Number(task[3]) + Nu
 //55
 let task1 = String(12345);
 alert(Number(task1[0]) + Number(task1[1]) + Number(task1[2]) + Number(task1[3]) + Number(task1[4]))
-alert(task[4] + task[3] + task[2] + task[1] + task[0]);*/
+alert(task[4] + task[3] + task[2] + task[1] + task[0]);
 //57-58
 let num = 47;
 num += 7;
@@ -184,4 +184,11 @@ let num1 = 10;
 num1++;
 num1++;
 num1--;
-alert(num1);
+alert(num1);*/
+// Я Люблю Эльнура
+//60
+let num1 = 3;
+num1++;
+let num2 = num1--;
+alert(num1++);
+alert(--num2);
