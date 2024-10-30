@@ -192,3 +192,5 @@ num1++;
 let num2 = num1--;
 alert(num1++);
 alert(--num2);
+//61
+alert(0.3 - 0.1);
