@@ -184,7 +184,7 @@ let num1 = 10;
 num1++;
 num1++;
 num1--;
-alert(num1);*/
+alert(num1);
 // Я Люблю Эльнура
 //60
 let num1 = 3;
@@ -193,4 +193,8 @@ let num2 = num1--;
 alert(num1++);
 alert(--num2);
 //61
-alert(0.3 - 0.1);
+alert(0.3 - 0.1);*/
+//62
+let age = prompt('Ваш возраст: ');
+alert('Ваш возраст: ' + age);
+
