@@ -197,4 +197,13 @@ alert(0.3 - 0.1);*/
 //62
 let age = prompt('Ваш возраст: ');
 alert('Ваш возраст: ' + age);
+//63
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
 
+alert(Number(num1) + Number(num2)); // сложит числа как строки 
+let num3 = prompt('Сторона квадрата: ');
+alert(Number(num3) * Number(num3));
+let num4 = prompt('Длинна: ');
+let num5 = prompt('Ширина: ');
+alert(2 * (Number(num4) + Number(num5)));
