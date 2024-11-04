@@ -240,3 +240,7 @@ console.log(arr2[1]);
 console.log(arr2[2]);
 let arr4 = ['a', 'b', 'c', 'd'];
 console.log(arr4[0]+ '+' +arr4[1]+ '+' +arr4[2]+ '+' +arr4[3]);
+//70
+let mass = ['d','w','r','t','y','u','j','n','e'];
+console.log(mass.length);
+console.log(mass[mass.length - 1]);
