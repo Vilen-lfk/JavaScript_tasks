@@ -219,11 +219,17 @@ document.write('4<br>');
 document.write('5<br>');
 //65
 /*let a = 24 / 60 / 60;
-console.log(a.toFixed(2));*/
+console.log(a.toFixed(2));
 //66
 let a = 5;
 let s = a*a;
 alert(s);
 let b = 6;
 let s1 = a * b;
-alert(s1);
+alert(s1);*/
+let arr = [1, 3, 5, 7, 9];
+let arr1 = ['Vilen', 'Elnur', 'Edem'];
+alert (arr);
+alert (arr1);
+console.log(arr);
+console.log(arr1);
