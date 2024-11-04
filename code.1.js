@@ -193,7 +193,7 @@ let num2 = num1--;
 alert(num1++);
 alert(--num2);
 //61
-alert(0.3 - 0.1);*/
+alert(0.3 - 0.1);
 //62
 let age = prompt('Ваш возраст: ');
 alert('Ваш возраст: ' + age);
@@ -206,4 +206,17 @@ let num3 = prompt('Сторона квадрата: ');
 alert(Number(num3) * Number(num3));
 let num4 = prompt('Длинна: ');
 let num5 = prompt('Ширина: ');
-alert(2 * (Number(num4) + Number(num5)));
+alert(2 * (Number(num4) + Number(num5)));*/
+//64
+document.write('Lorem dbdhlmlhdrmhmdhhd');
+document.write('<i>Vilen<i>'+'<br>');
+let str = 'text';
+document.write('<i>' + str + '<i>');
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
+//65
+let a = 24 / 60 / 60;
+console.log(a.toFixed(2));
