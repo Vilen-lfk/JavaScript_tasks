@@ -274,3 +274,20 @@ mass1[3] = 'a';
 mass1[9] = 'b';
 console.log(mass1.length);
 //76
+let mass2 = [];
+mass2.push(1);
+mass2.push(2);
+mass2.push(3);
+console.log(mass2);
+let mass3 = [1, 2, 3];
+mass3.push(4);
+mass3.push(5);
+console.log(mass3);
+//77
+let mass4 = ['a', 'b', 'c'];
+let key = 2;
+console.log(mass4[key]);
+let mass5 = [1, 2, 3, 4, 5];
+let key1 = 1;
+let key2 = 2;
+console.log(mass5[key1] + mass5[key2]);
