@@ -218,5 +218,12 @@ document.write('3<br>');
 document.write('4<br>');
 document.write('5<br>');
 //65
-let a = 24 / 60 / 60;
-console.log(a.toFixed(2));
+/*let a = 24 / 60 / 60;
+console.log(a.toFixed(2));*/
+//66
+let a = 5;
+let s = a*a;
+alert(s);
+let b = 6;
+let s1 = a * b;
+alert(s1);
