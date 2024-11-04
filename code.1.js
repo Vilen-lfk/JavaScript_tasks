@@ -244,3 +244,17 @@ console.log(arr4[0]+ '+' +arr4[1]+ '+' +arr4[2]+ '+' +arr4[3]);
 let mass = ['d','w','r','t','y','u','j','n','e'];
 console.log(mass.length);
 console.log(mass[mass.length - 1]);
+//71
+let arr5 = ['a', 'b', 'c'];
+arr5[0] = 1;
+arr5[1] = 2;
+arr5[2] = 3;
+console.log(arr5);
+//72
+let arr6 = [1, 2, 3];
+
+arr6[0] += 3;
+arr6[1] += 3;
+arr6[2] += 3;
+
+console.log(arr6);
