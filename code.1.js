@@ -313,7 +313,7 @@ console.log(user['patronymic']);
 //83
 let date = {'year': 2024, 'month': 11, 'day': 5 };
 console.log(date.year + '-' + date.month + '-' + date.day);
-//84*/
+//84
 let obj2 = {
 	'1a': 1,
 	'b2': 2,
@@ -349,3 +349,12 @@ let obj4 = {x: 1, y: 2, z: 3};
 let keys = Object.keys(obj4);
 console.log(keys);
 console.log(Object.keys(obj4).length);
+//90
+let obj5 = {x: 1, y: 2, z: 3};
+let keys1 = 'y';
+console.log(obj5[keys1]);*/
+//91
+let obj6 = {x: 1, y: 2, z: 3};
+console.log(obj6['x']);
+let key = 'x';
+console.log(obj6[key]);
