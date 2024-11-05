@@ -332,3 +332,15 @@ obj.x = obj.x * 1;
 obj.y = obj.y * 2;
 obj.z = obj.z * 3;
 console.log(obj);
+//86
+let obj1 = {};
+obj1.a = 1;
+obj1.b = 2;
+obj1.c = 3;
+console.log(obj1);
+//87
+let obj3 = {6:'bf', 78:'gj', 3:'dn', 23:'sb'};
+console.log(obj3[78]);
+console.log(obj3[23]);
+console.log(obj3[6]);
+console.log(obj3[3]);
