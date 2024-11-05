@@ -326,3 +326,9 @@ console.log(obj2.b2);
 console.log(obj2['c-c']);
 console.log(obj2['d 4']);
 console.log(obj2.e5);
+//85
+let obj = {x: 1, y: 2, z: 3};
+obj.x = obj.x * 1;
+obj.y = obj.y * 2;
+obj.z = obj.z * 3;
+console.log(obj);
