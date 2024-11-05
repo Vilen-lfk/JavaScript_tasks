@@ -290,7 +290,7 @@ console.log(mass4[key]);
 let mass5 = [1, 2, 3, 4, 5];
 let key1 = 1;
 let key2 = 2;
-console.log(mass5[key1] + mass5[key2]);*/
+console.log(mass5[key1] + mass5[key2]);
 //78
 let mass6 = ['a', 'b', 'c', 'd', 'e'];
 delete mass6[1];
@@ -310,3 +310,19 @@ let user = {'name': 'Vilen', 'surname': 'Karamurzayev', 'patronymic': 'Rustemovi
 console.log(user['name']);
 console.log(user['surname']);
 console.log(user['patronymic']);
+//83
+let date = {'year': 2024, 'month': 11, 'day': 5 };
+console.log(date.year + '-' + date.month + '-' + date.day);
+//84*/
+let obj2 = {
+	'1a': 1,
+	'b2': 2,
+	'с-с': 3,
+	'd 4': 4,
+	'e5': 5
+};
+console.log(obj2['1a']);
+console.log(obj2.b2);
+console.log(obj2['c-c']);
+console.log(obj2['d 4']);
+console.log(obj2.e5);
