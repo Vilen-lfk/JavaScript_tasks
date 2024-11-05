@@ -226,7 +226,7 @@ let s = a*a;
 alert(s);
 let b = 6;
 let s1 = a * b;
-alert(s1);*/
+alert(s1);
 let arr = [1, 3, 5, 7, 9];
 let arr1 = ['Vilen', 'Elnur', 'Edem'];
 alert (arr);
@@ -290,4 +290,12 @@ console.log(mass4[key]);
 let mass5 = [1, 2, 3, 4, 5];
 let key1 = 1;
 let key2 = 2;
-console.log(mass5[key1] + mass5[key2]);
+console.log(mass5[key1] + mass5[key2]);*/
+//78
+let mass6 = ['a', 'b', 'c', 'd', 'e'];
+delete mass6[1];
+delete mass6[3];
+console.log(mass6.length);
+//79
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.length);
