@@ -299,3 +299,6 @@ console.log(mass6.length);
 //79
 let arr = [1, 2, 3, 4, 5];
 console.log(arr.length);
+//80
+let obj = {1: 'понедельник', 2: 'вторник', 3: 'cреда', 4: 'четверг', 5: 'пятница', 6: 'суббота', 7: 'воскресенье'};
+console.log(obj); 
