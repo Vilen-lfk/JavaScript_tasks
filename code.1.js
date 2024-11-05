@@ -302,3 +302,11 @@ console.log(arr.length);
 //80
 let obj = {1: 'понедельник', 2: 'вторник', 3: 'cреда', 4: 'четверг', 5: 'пятница', 6: 'суббота', 7: 'воскресенье'};
 console.log(obj); 
+//81
+let obj1 = {1: 'январь', 2: 'февраль', 3: 'март', 3: 'апрель', 4: 'май'};
+console.log(obj1);
+//82
+let user = {'name': 'Vilen', 'surname': 'Karamurzayev', 'patronymic': 'Rustemovich'};
+console.log(user['name']);
+console.log(user['surname']);
+console.log(user['patronymic']);
