@@ -344,3 +344,8 @@ console.log(obj3[78]);
 console.log(obj3[23]);
 console.log(obj3[6]);
 console.log(obj3[3]);
+//88-89
+let obj4 = {x: 1, y: 2, z: 3};
+let keys = Object.keys(obj4);
+console.log(keys);
+console.log(Object.keys(obj4).length);
