@@ -368,3 +368,13 @@ let obj1 = {
 	[key3]: 3
 };
 console.log(obj1);
+//94
+let obj2 = {x: 1, y: 2, z: 3};
+
+console.log('x' in obj2);
+console.log('w' in obj2);
+//95
+let obj3 = {x: 1, y: 2, z: 3};
+delete obj3.x;
+
+console.log('x' in obj3);
