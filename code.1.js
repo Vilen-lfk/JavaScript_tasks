@@ -378,3 +378,12 @@ let obj3 = {x: 1, y: 2, z: 3};
 delete obj3.x;
 
 console.log('x' in obj3);
+//96
+let a = '96 задача'
+console.log(a)
+console.log( typeof {x: 1, y: 2, z: 3} );
+console.log( typeof {} );
+let obj5 = {x: 1, y: 2, z: 3};
+console.log( typeof obj5 );
+let obj4 = {x: 1, y: 2, z: 3};
+console.log( typeof obj4['x'] );
