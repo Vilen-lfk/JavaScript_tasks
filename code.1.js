@@ -387,3 +387,19 @@ let obj5 = {x: 1, y: 2, z: 3};
 console.log( typeof obj5 );
 let obj4 = {x: 1, y: 2, z: 3};
 console.log( typeof obj4['x'] );
+//97
+let a1 = '97 задача';
+console.log(a1);
+console.log( typeof {x: 1, y: 2, z: 3} ); 
+console.log( typeof [1, 2, 3] );
+let arr = [1, 2, 3];
+console.log( typeof arr );
+let arr1 = [1, 2, 3];
+console.log( typeof arr1[0] );
+let arr2 = ['1', '2', '3'];
+console.log( typeof arr2[0] );
+//98
+let a2 = '98 задача';
+console.log(a2);
+console.log( Array.isArray([1, 2, 3]) );
+console.log( Array.isArray({x: 1, y: 2, z: 3}) ); 
