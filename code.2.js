@@ -27,3 +27,9 @@ console.log(a2);
 const arr = ['a', 'b', 'c'];
 arr[1] = '!';
 console.log(arr);
+//102
+let a3 = '102 задача';
+console.log(a3);
+const arr5 = [1, 2, 3, 4, 5];
+const res = arr5[1] + arr5[2];
+console.log(res);
