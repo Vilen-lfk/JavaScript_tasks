@@ -82,3 +82,22 @@ if (test7 == 10) {
 else{
     console.log('false')
 }
+//107
+let a7 = '107 задача';
+console.log(a7);
+let test8 = 7;
+if (test8 != 10) {
+	console.log('++');
+} else {
+	console.log('--'); 
+}
+//108
+let a8 = '108 задача';
+console.log(a8);
+let vil1 = 1;
+let vil2 = 2;
+if (vil2 > vil1) {
+	console.log('перемнная vil2 больше');  
+} else {
+	console.log('перемнная vil2 меньше');
+}
