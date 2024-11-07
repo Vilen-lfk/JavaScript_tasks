@@ -50,8 +50,8 @@ console.log(sum);
 let obj3 = {x: 1, y: 2, z: 3};
 let size = Object.keys(obj3).length
 console.log(size);
-//104
-let a5 = '104 задача';
+//105
+let a5 = '105 задача';
 console.log(a5);
 let test4 = 10;
 if (test4 > 10) {
@@ -72,3 +72,13 @@ if (test6 >= 10) {
     console.log('+')
 } 
 else{console.log('-')}
+//106
+let a6 = '106 задача';
+console.log(a6);
+let test7 = 1;
+if (test7 == 10) {
+    console.log('true')
+}
+else{
+    console.log('false')
+}
