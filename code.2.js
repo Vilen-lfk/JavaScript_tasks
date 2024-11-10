@@ -272,3 +272,22 @@ if (bmw2) {
 } else {
 	console.log('---');
 }
+//123
+let a23 = '123 задача';
+console.log(a23);
+let bmw3 = true;
+let bmw4 = true;
+if (bmw3 && bmw4) { 
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let bmw5 = true;
+let bmw6 = true;
+let bmw7 = true;
+if (bmw5 || !bmw6 && !bmw7) { 
+	console.log('+++');
+} else {
+	console.log('---');
+}
