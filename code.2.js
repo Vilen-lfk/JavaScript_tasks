@@ -199,3 +199,19 @@ if (num == 0 || num > 1 && num
 } else {
 	console.log('---');
 }
+//116
+let a16 = '116 задача';
+console.log(a16);
+let num6 = 3;
+if (num6 == 9 || num6 > 10 && num6 < 20 || num6 > 20 && num6 < 30) { 
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//let num = 4;	
+if (num > 5 || num > 0 && num < 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
