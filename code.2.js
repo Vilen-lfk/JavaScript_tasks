@@ -161,3 +161,41 @@ if(num > 0 && num < 5){
 else{
     console.log('false');
 }
+
+let num1 = 7;
+if(num >= 10 && num <= 20){
+    console.log('true');
+}
+else{
+    console.log('false');
+}
+
+let num2 = -1;
+let num3 = 6;
+if (num2 <= 1 && num3 >= 3){
+    console.log('true');
+}
+else{
+    console.log('false');
+}
+//114
+let a14 = '114 задача';
+console.log(a14);
+let num4 = 0;
+let num5 = 5;
+
+if (num4 >= 0 || num5 >= 0) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//115
+let a15 = '115 задача';
+console.log(a15);
+//let num = 4;
+if (num == 0 || num > 1 && num 
+	< 5 ) { 
+	console.log('+++');
+} else {
+	console.log('---');
+}
