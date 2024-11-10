@@ -101,3 +101,42 @@ if (vil2 > vil1) {
 } else {
 	console.log('перемнная vil2 меньше');
 }
+//109
+let a9 = '109 задача';
+console.log(a9);
+let str = 'Vilen';
+let str1 = 'Edem';
+if(str == 'Vilen'){
+    console.log(str)
+}
+else{
+    console.log('-')
+}
+if(str1 == 'Vilen'){
+    console.log(str1)
+}
+else{
+    console.log('-')
+}
+//110
+let a10 = '110 задача';
+console.log(a10);
+let str2 = '123';
+let str3 = 123;
+if ('123' == 123) {
+    console.log('true')
+}
+else {
+    console.log('false')
+}
+//111
+let a11 = '111 задача';
+console.log(a11);
+let str4 = 3;
+let str5 = '3';
+		
+if (str4 === str5) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
