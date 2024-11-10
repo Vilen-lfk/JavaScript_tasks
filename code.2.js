@@ -217,11 +217,21 @@ if (num > 5 || num > 0 && num < 3) {
 }
 //117
 let a17 = '117 задача';
-console.log(a17)
+console.log(a17);
 let mam = 4;
 let mam1 = 12;
 if ( !(mam >= 0 || mam1 <= 10) ) {
 	console.log('+++');
 } else {
+	console.log('---');
+}
+//118
+let a18 = '118 задача';
+console.log(a18);
+let mam2 = true;
+if(mam2 === true){
+	console.log('+++');
+}
+else{
 	console.log('---');
 }
