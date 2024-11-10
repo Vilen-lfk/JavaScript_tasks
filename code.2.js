@@ -215,3 +215,13 @@ if (num > 5 || num > 0 && num < 3) {
 } else {
 	console.log('---');
 }
+//117
+let a17 = '117 задача';
+console.log(a17)
+let mam = 4;
+let mam1 = 12;
+if ( !(mam >= 0 || mam1 <= 10) ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
