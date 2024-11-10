@@ -1,8 +1,8 @@
 //99
 let a = '99 задача';
 console.log(a);
-let test = {x: 1, y: 2, z: 3};
-console.log(test);
+/*let test = {x: 1, y: 2, z: 3};
+console.log(test);*/
 let test1 = {x: 1, y: 2, z: 3};
 console.log(test1.x);
 let test3 = [1, 2, 3];
@@ -233,5 +233,42 @@ if(mam2 === true){
 	console.log('+++');
 }
 else{
+	console.log('---');
+}
+//119
+let a19 = '119 задача';
+console.log(a19);
+let test = 3 * 'a';
+		
+if (test == true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//120
+let a20 = '120 задача';
+console.log(a20);
+let bmw = true;
+
+if (bmw) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//121
+let a21 = '121 задача';
+console.log(a21);
+let bmw1 = true;
+if(!bmw1){
+	console.log('+++');
+}
+else{
+	console.log('---');
+}
+
+let bmw2 = true;
+if (bmw2) {
+	console.log('+++');
+} else {
 	console.log('---');
 }
