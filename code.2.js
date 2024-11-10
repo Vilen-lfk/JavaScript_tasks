@@ -140,3 +140,24 @@ if (str4 === str5) {
 } else {
 	console.log('---');
 }
+//112
+let a12 = '112 задача';
+console.log(a12);
+let str6 = 3;
+let str7 = '3';
+		
+if (str6 !== str7) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//113
+let a13 = '113 задача';
+console.log(a13);
+let num = 4;
+if(num > 0 && num < 5){
+    console.log('true');
+}
+else{
+    console.log('false');
+}
