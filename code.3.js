@@ -34,3 +34,23 @@ else if (day >= 20 && day <= 31){
 else {
     console.log('неверное значение');
 }
+//128
+let a28 = '128 задача';
+console.log(a28);
+let num = 89;
+if (num >= 10)
+{
+    if(num <= 99){
+        num = (num%10) + ((num/10)-(num%10)/10)
+        console.log(num)
+    }
+    else
+    {
+        console.log('сумма цифр двузначна');
+    }
+}
+else
+{
+    console.log('сумма цифр однозначна');
+}
+
