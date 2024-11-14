@@ -217,4 +217,32 @@ if (str2.startsWith('a') || str2.startsWith('b')) {
 } else {
     console.log('-');
 }
+//139
+let a39 = '139 задача';
+console.log(a39);
+let mun = 1445510;
+if (String(mun)[String(mun).length - 1] === '0'){
+    console.log('верно');
+}
+else{
+    console.log('не верно');
+}
+//--------------------
 
+let mun1 = 343478;
+if(mun1 % 2 === 0)
+    {
+    console.log('число четное');
+}
+else{
+    console.log('число не четное');
+}
+//140
+let a40 = '140 задача';
+console.log(a40);
+let a = 45;
+if (a % 3 === 0) {
+	console.log('делится на 3');
+} else {
+	console.log('не делится'); 
+}
