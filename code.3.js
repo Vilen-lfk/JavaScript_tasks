@@ -78,7 +78,7 @@ let num1 = -5;
 let res = num1 >= 0
     ? '1': '2';
 console.log(res);
-//131
+//132
 let a31 = '131 задача';
 console.log(a31);
 let num2 = 2 * (3 - 1);
@@ -92,3 +92,74 @@ let num7 = 4 ** 2;
 console.log(num2 == num3);
 console.log(num4 == num5);
 console.log(num6 == num7);
+//132
+/*let a33 = '133 задача';
+console.log(a33);
+let ok = confirm('Тебе 18 есть?');
+
+if (ok) {
+	console.log('вы ответили да');
+} else {
+	console.log('вы ответили нет');
+}*/
+//134
+let a34 = '134 задача';
+console.log(a34);
+let age = 19;
+let adult;
+
+if (age >= 18) {
+    adult = true;
+} else {
+    adult = false;
+}
+
+console.log(adult);
+//135
+let a35 = '135 задача';
+console.log(a35);
+let age1 = 18;
+let adult1;
+if (age1 >= 18) {
+	adult1 = true;
+} else {
+	adult1 = false;
+}
+console.log(adult1);
+//--------------------
+let age2 = 17;
+let adult2;
+if (age2 >= 18) {
+	adult2 = true;
+} else {
+	adult2 = false;
+}
+console.log(adult2);
+//--------------------
+let age3 = 21;
+let res3;
+if (age3 >= 18) 
+{
+	if (age3 <= 23) {
+		res3 = 'от 18 до 23';
+	} else {
+		res3 = 'больше 23';
+	}
+} 
+else {
+	res3 = 'меньше 18';
+}
+console.log(res3);
+//-------------------
+let age4 = 25;
+let res4;
+if (age4 >= 18) {
+	if (age4 <= 23) {
+		res4 = 'от 18 до 23';
+	} else {
+		res4 = 'больше 23';
+	}
+} else {
+	res4 = 'меньше 18';
+}
+console.log(res4);
