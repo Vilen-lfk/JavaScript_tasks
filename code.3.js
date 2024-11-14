@@ -189,3 +189,32 @@ if (arr.length === 3) {
 } else {
     console.log("В массиве не 3 элемента.");
 }
+//138
+let a38 = '138 задача';
+console.log(a38);
+let str = 'Vilen';
+//let last = str[str.length - 1];
+if(str[0] == 'a'){
+    console.log('+');
+}else
+{
+    console.log('-');
+}
+//------------
+let str1 = 'dmfmx';
+let last = str1[str1.length - 1];
+if(last === 'x'){
+    console.log('+');
+}else
+{
+    console.log('-');
+}
+//-----------
+let str2 = "apple"; 
+
+if (str2.startsWith('a') || str2.startsWith('b')) {
+    console.log('+');
+} else {
+    console.log('-');
+}
+
