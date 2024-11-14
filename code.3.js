@@ -53,4 +53,42 @@ else
 {
     console.log('сумма цифр однозначна');
 }
+//129
+let a29 = '129 задача';
+console.log(a29);
+let lang = 'en';
+switch(lang) {
+    case 'ru':
+	    console.log('рус');
+    break;
+    case 'en':
+	    console.log('анг');
+    break;
+    case 'de':
+	    console.log('нем');
+    break;
+    default:
+	    console.log('язык не поддерживается');
+    break;
+}
+//130
+let a30 = '130 задача';
+console.log(a30);
+let num1 = -5;
+let res = num1 >= 0
+    ? '1': '2';
+console.log(res);
+//131
+let a31 = '131 задача';
+console.log(a31);
+let num2 = 2 * (3 - 1);
+let num3 = 6 - 2;
 
+let num4 = 5 * (7 - 4);
+let num5 = 1 + 2 + 7;
+
+let num6 = 2 ** 4;
+let num7 = 4 ** 2;
+console.log(num2 == num3);
+console.log(num4 == num5);
+console.log(num6 == num7);
