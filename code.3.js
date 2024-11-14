@@ -35,7 +35,7 @@ else {
     console.log('неверное значение');
 }
 //128
-let a28 = '128 задача';
+/*let a28 = '128 задача';
 console.log(a28);
 let num = 89;
 if (num >= 10)
@@ -245,4 +245,59 @@ if (a % 3 === 0) {
 	console.log('делится на 3');
 } else {
 	console.log('не делится'); 
+}
+//141
+let a41 = '141 задача';
+console.log(a41);
+let num = 123;
+
+if (String(num)[0] === '1') {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//142
+let a42 = '142 задача';
+console.log(a42);
+let month = 12;
+if( month >= 1 && month <= 3){
+    console.log('Зима');
+}
+if( month >= 4 && month <= 6){
+    console.log('Весна');
+}
+if( month >= 7 && month <= 9){
+    console.log('Лето');
+}
+if( month >= 10 && month <= 12){
+    console.log('Осень');
+}
+//-------------
+let abc = 'absde';
+if(abc[0] === 'a'){
+    console.log('yes');
+}
+else{
+    console.log('no');
+}
+//------------
+let abc1 = 12345;
+let bcd = String(abc1);
+if(bcd[0] === '1' || bcd[0] === '2' || bcd[0] === '3'){
+    console.log('yes');
+}
+else{
+    console.log('no');
+}
+//----------------
+let number = 123321;
+let number1 = String(number);
+let fr = Number(number1[0]) + Number(number1[1]) + Number(number1[2]);
+let sc = Number(number1[3]) + Number(number1[4]) + Number(number1[5]);
+if(fr === sc)
+    {
+    console.log('yes');
+}
+else{
+    console.log('no');
 }
