@@ -163,3 +163,29 @@ if (age4 >= 18) {
 	res4 = 'меньше 18';
 }
 console.log(res4);
+//136
+let a36 = '136 задача';
+console.log(a36);
+let min = 47;
+
+if (min >= 0 && min <= 20) {
+	console.log('1 треть');
+}
+
+if (min >= 21 && min <= 40) {
+	console.log('2 треть');
+}
+
+if (min >= 41 && min <= 60) {
+	console.log('3 треть');
+}
+//137
+let a37 = '137 задача';
+console.log(a37);
+let arr = [45, 5, 62];
+if (arr.length === 3) {
+    let sum = arr[0] + arr[1] + arr[2];
+    console.log("Сумма элементов массива:", sum);
+} else {
+    console.log("В массиве не 3 элемента.");
+}
