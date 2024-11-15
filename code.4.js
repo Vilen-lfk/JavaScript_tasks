@@ -65,3 +65,44 @@ let mass = ['a', 'b', 'c', 'd', 'e'];
 for (let i = mass.length - 1; i >= 0; i--) { 
 	console.log(mass[i]);
 }
+//149
+let a49 = '149 задача';
+console.log(a49);
+let mass1 = [2, 5, 9, 15, 1, 4];
+for(let el of mass1){
+    if (el > 3 && el < 10){
+        console.log(el);
+    }
+}
+let aa = '-----';
+console.log(aa);
+let obj1 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+for (let key in obj1) {
+  if (obj1[key] % 2 !== 0) {
+    console.log(key, ': ', obj1[key]);
+  }
+}
+//150
+let a50 = '150 задача';
+console.log(a50);
+let la = 0;
+for(let i = 2; i < 100; i++){
+    if(i % 2 ==0){
+        la += i;
+    }
+}
+console.log(la);
+
+let la1 = 0;
+for(let i = 1; i < 99; i++){
+    if(i % 2 != 0){
+        la1 += i;
+    }
+}
+console.log(la1);
+
+let la2 = 1;
+for(let i = 1; i < 10; i++){
+    la2 = la2 * i;
+}
+console.log(la2);
