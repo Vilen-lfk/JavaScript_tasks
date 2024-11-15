@@ -51,3 +51,17 @@ console.log(a47);
 for (let i = 10; i > 0; i--) {
         console.log(i); // выведет 10, 9, 8...
 }
+//148
+let a48 = '148 задача';
+console.log(a48);
+let mass = ['a', 'b', 'c', 'd', 'e'];
+/*for (let i = 0; i <= mass.length 
+	- 1; i++) { 
+	console.log(mass[i]);
+}*/
+/*for (let i = 1; i < mass.length - 1; i++) { 
+	console.log(mass[i]);
+}*/
+for (let i = mass.length - 1; i >= 0; i--) { 
+	console.log(mass[i]);
+}
