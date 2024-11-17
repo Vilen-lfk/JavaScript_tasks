@@ -241,3 +241,46 @@ for(let k = 0; k < pushe2.length; k++){
 console.log(pushe);
 console.log(pushe1);
 console.log(pushe3);
+//160
+let a60 = '160 задача';
+console.log(a60);
+let pxl = [1,2,3,4,5];
+for(let i = 0; i < pxl.length; i++){
+    pxl[i] =pxl[i] ** 2;
+}
+console.log(pxl);
+let pxl1 = [1,2,3,4,5];
+for(let i = 0; i < pxl1.length; i++){
+    pxl1[i] -= 1;
+}
+console.log(pxl1);
+//161
+let a61 = '161 задача';
+console.log(a61);
+let arr1 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс']; 
+let arr2 = [1, 2, 3, 4, 5, 6, 7];
+let obj2 = [];
+for(let i = 0; i <= 6; i++){
+    let key = arr1[i];
+    let value = arr2[i];
+    obj[key] = value;
+}
+console.log(obj);
+
+let obj3 = { a: 1, b: 2, c: 3, d: 4, e: 5 }; 
+let newObj = {}; 
+for (let key in obj3) {
+    if (obj3[key] % 2 === 0) { // Проверяем, является ли значение четным
+        newObj[key] = obj3[key]; // Добавляем элемент в новый объект
+    }
+}
+console.log(newObj);
+
+let obj4 = { a: 1, b: 2, c: 3, d: 4, e: 5 }; 
+let newObj1 = {}; 
+
+for (let key in obj4) {
+    newObj1[obj4[key]] = key; // Значение становится ключом, а ключ становится значением
+}
+
+console.log(newObj1);
