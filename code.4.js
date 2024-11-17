@@ -120,3 +120,88 @@ for(let ele of vss){
 }
 console.log(rt);
 console.log(rt1);
+//152
+let a52 = '152 задача';
+console.log(a52);
+let str ='';
+for (let i = 0; i < 5; i++){
+    str += '-';
+}
+console.log(str);
+
+let str1 = '';
+for (let i = 1; i <= 9; i++) {
+	str1 += i;
+}
+console.log(str1);
+
+let str2 = '';
+for (let i = 9; i >= 1; i--) {
+	str2 += i;
+}
+console.log(str2);
+
+let str3 = '';
+for (let i = 1; i <= 9; i++) {
+	str3 += '-' + i;
+}
+console.log(str3);
+//153
+let a53 = '153 задача';
+console.log(a53);
+for (let i = 10; i <= 100; i++) {
+	let str4 = String(i); // преобразуем число в строку 
+	
+	if (str4[0] === '1' || str4[0] 
+		=== '2') { 
+		console.log(i);
+	}
+}
+//154
+let a54 = '154 задача';
+console.log(a54);
+let mus = [5, 3, 8, 0, 7, 2];
+for (let i = 0; i < mus.length; i++) {
+    if (mus[i] === 0) {
+        break; // Прерываем цикл, если встречаем 0
+    }
+    console.log(mus[i]);
+}
+let mus1 = [5, 3, 8, 0, -7, 2];
+let sum = 0;
+for (let i = 0; i < mus.length; i++) {
+    if (mus[i] < 0) {
+        break; // Прерываем цикл, если встречаем 0
+    }
+    sum += mus[i];
+}
+console.log(sum);
+
+let sum1 = 0; 
+let count = 0;
+while (sum1 <= 100) {
+    count++; 
+    sum1 += count; 
+}
+console.log("Количество чисел:", count);
+
+//155
+let a55 = '155 задача';
+console.log(a55);
+let arr0= [1, 2, 3, 4, 5, 6, 7, 
+	8, 9]; 
+
+for (let elem of arr0) {
+	let result;
+	
+	if (elem % 2 == 0) {
+		result = elem * elem;
+	} else if (elem % 3 == 0) {
+		result = elem * elem * elem;
+	} else {
+		continue; // перейдем на новую итерацию 
+			цикла 
+	}
+	
+	console.log(result); // выполнится, если делится на 2 или 3 
+}
