@@ -106,3 +106,17 @@ for(let i = 1; i < 10; i++){
     la2 = la2 * i;
 }
 console.log(la2);
+//151
+let a51 = '151 задача';
+console.log(a51);
+let vss = [2, 5, 9, 3, 1, 4];
+let rt = 0;
+let rt1 = 0
+for(let ele of vss){
+    rt += ele;
+    if(ele % 2 == 0){
+        rt1 += ele;
+    }
+}
+console.log(rt);
+console.log(rt1);
