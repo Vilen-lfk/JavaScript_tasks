@@ -188,8 +188,7 @@ console.log("Количество чисел:", count);
 //155
 let a55 = '155 задача';
 console.log(a55);
-let arr0= [1, 2, 3, 4, 5, 6, 7, 
-	8, 9]; 
+let arr0= [1, 2, 3, 4, 5, 6, 7, 8, 9]; 
 
 for (let elem of arr0) {
 	let result;
@@ -205,3 +204,40 @@ for (let elem of arr0) {
 	
 	console.log(result); // выполнится, если делится на 2 или 3 
 }
+//156
+let a56 = '156 задача <br>';
+document.write(a56);
+for (let i = 1; i <= 9; i++) {
+	for (let j = 1; j <= 3; j++) {
+		document.write(i);
+	}
+}
+let result = '';
+for(let i = 1; i <= 3; i++){
+    for(let j = 1; j <= 3; j++){
+        result += i + '' + j + '' + ''; 
+    }
+}
+document.write('<br>',result);
+//159
+let a59 = '159 задача';
+console.log(a59);
+let pushe = [];
+let pushe1 = [];
+let pushe2 = [3, 2, -8, -3, 5, 1, -45, 21,-56];
+let pushe3 = []; 
+for (let i = 1; i <= 10; i++){
+    pushe.push(i)
+}
+for (let j = 1; j <= 10; j++){
+    
+    pushe1.push('x');
+}
+for(let k = 0; k < pushe2.length; k++){
+    if(pushe2[k] > 0){
+        pushe3.push(pushe2[k]);
+    }
+}
+console.log(pushe);
+console.log(pushe1);
+console.log(pushe3);
