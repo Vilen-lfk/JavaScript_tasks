@@ -284,3 +284,18 @@ for (let key in obj4) {
 }
 
 console.log(newObj1);
+//162
+let a62 = '162 задача';
+console.log(a62);
+let obj5 = {x: 1, y: 2, z: 3};
+let obj6 = {x: 1, y: 2, z: 3};
+for(let key in obj5){
+    obj5[key] = obj5[key] ** 2;
+}
+for(let key1 in obj6){
+    obj6[key1] = obj6[key1] + 1;
+}
+console.log(obj5);
+console.log(obj6);
+
+
