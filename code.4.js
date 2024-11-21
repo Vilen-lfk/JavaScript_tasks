@@ -297,5 +297,38 @@ for(let key1 in obj6){
 }
 console.log(obj5);
 console.log(obj6);
+//163
+let a63 = '163 задача';
+console.log(a63);
+let muss = ['a', 'b', 'k', 'c', 'e'];
+let flag = false;
+
+for (let elem of muss) {
+	if (elem == 'c') {
+		flag = true;
+		break;
+	}
+}
+
+if (flag === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//164
+let a64 = '164 задача';
+console.log(a64);
+let muss1 = [10, 20, 30, 40, 21, 32, 51];
+let summ = 0; 
+for (let i = 0; i < muss1.length; i++) {
+  let elem = muss1[i];
+  let firstDigit = String(elem)[0]; 
+  if (firstDigit === '1' || firstDigit === '2') {
+    summ += elem; 
+  }
+}
+console.log("Сумма элементов:", summ);
+//165
+
 
 
