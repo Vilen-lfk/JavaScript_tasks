@@ -335,11 +335,11 @@ let obje = { a: 10, b: 25, c: 30, d: 40, e: 50 };
 let sum2 = 0;
 
 for (let key in obje) {
-    let value = obje[key]; // Получаем значение свойства
-    let firstDigit = String(value)[0]; // Получаем первую цифру значения
+    let value = obje[key]; 
+    let firstDigit = String(value)[0];
 
-    if (firstDigit === '1' || firstDigit === '2') { // Проверяем, равна ли первая цифра '1' или '2'
-        sum2 += value; // Добавляем значение к сумме
+    if (firstDigit === '1' || firstDigit === '2') { 
+        sum2 += value; 
     }
 }
 
