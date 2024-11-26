@@ -344,6 +344,27 @@ for (let key in obje) {
 }
 
 console.log(sum2);
+//165
+let ii = 0;
+
+while (ii <= 10) {
+	console.log(ii);
+	ii++;
+}
+
+
+let arr13 = [1, 2, 3, 4, 5, 6, 7, 
+	8, 9]; 
+    let res = [];
+
+for (let elem of arr13) {
+	if (elem % 2 != 0) {
+		res.push(elem);
+	}
+}
+
+console.log(res);
+
 
 
 
