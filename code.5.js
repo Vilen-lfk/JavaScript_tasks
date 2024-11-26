@@ -26,3 +26,17 @@ for(let three of arr2){
     }
 }
 console.log(sum1);
+//170
+let arr3 = [[1, 2, 3, [4, 5, [6, 
+	7]]], [8, [9, 10]]];
+console.log(arr3[0][0]+arr3[0][1]+arr3[0][2]+arr3[0][3][0]+arr3[0][3][1]+arr3[0][3][2][0]+arr3[0][3][2][1]+arr3[1][0]+arr3[1][1][0]+arr3[1][1][1]);  
+
+// 171   
+let arr4 = [[1, 2, 3], [4, 5], [6]];
+let summ = 0
+for(let subArr of arr4){
+	for(elem of subArr){
+		summ += elem;
+	}
+}
+console.log(summ);
