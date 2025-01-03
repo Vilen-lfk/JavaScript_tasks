@@ -40,3 +40,61 @@ for(let subArr of arr4){
 	}
 }
 console.log(summ);
+//172
+let arr7 = 'задание 172';
+console.log(arr7);
+let arr6 = [[1, 2, 3, 4, 5], [6, 
+	7, 8], [9, 10]]; 
+
+for (let i = 0; i < arr6.length; 
+	i++) { 
+	for (let j = 0; j < arr6[i].length; 
+		j++) { 
+		console.log(arr6[i][j]);
+	}
+}
+//173
+let err = 'задание 173';
+console.log(err);
+let err1 = [];
+for (let i = 0; i < 3; i++) {
+	err1[i] = []; // создаем подмассив
+	
+	for (let j = 0; j < 5; j++) {
+		err1[i].push(j + 1); // заполняем подмассив числами 
+	}
+}
+console.log(err1);
+
+let err3 = '----------';
+console.log(err3);
+let err2 = [];
+for (let i = 0; i < 3; i++) {
+	err2[i] = []; // создаем подмассив
+	
+	for (let j = 0; j < 4; j++) {
+		err2[i].push('x'); // заполняем подмассив числами 
+	}
+}
+console.log(err2);
+
+let err4 = '----------';
+console.log(err4);
+let layers = 3; 
+let rows = 2; 
+let cols = 5; 
+let arr8 = [];
+
+for (let i = 0; i < layers; i++) {
+    let layer = [];
+    for (let j = 0; j < rows; j++) {
+        let row = [];
+        for (let k = 0; k < cols; k++) {
+            row.push(k + 1);
+		}
+        layer.push(row);
+    }
+    arr8.push(layer);
+}
+
+console.log(arr8);
