@@ -188,3 +188,154 @@ for (let i = 0; i < 3; i++) {
 		k4++;
 	}
 }
+
+//176
+let aux = '176 задание';
+console.log(aux);
+let obj = {
+	key1: {
+		key1: 1,
+		key2: 2,
+		key3: 3,
+	},
+	key2: {
+		key1: 4,
+		key2: 5,
+		key3: 6,
+	},
+	key3: {
+		key1: 7,
+		key2: 8,
+		key3: 9,
+	},
+}
+let summm = 0;
+for(let onesum in obj){
+	for(let twosum in obj[onesum]){
+		summm += obj[onesum][twosum];
+	}
+}
+console.log('Сумма элементов объекта:', summm);
+
+let obj1 = {
+	1: {
+		1: 'a1',
+		2: 'a2',
+		3: 'a3',
+	},
+	2: {
+		1: 'b1',
+		2: 'b2',
+		3: 'b3',
+	},
+	3: {
+		1: 'c1',
+		2: 'c2',
+		3: 'c3',
+	},
+}
+console.log('Вывод:',obj1[2][1],obj1[3][1]);
+
+//177
+let aux1 = '177 задание';
+console.log(aux1);
+let obj2 = {
+	a: {
+		1: 'a1',
+		2: 'a2',
+		3: 'a3',
+	},
+	b: {
+		1: 'b1',
+		2: 'b2',
+		3: 'b3',
+	},
+	c: {
+		1: 'c1',
+		2: 'c2',
+		3: 'c3',
+	},
+}
+for (let key in obj1) {
+	let subObj = obj1[key];
+	
+	for (let subKey in subObj) {
+		console.log(subObj[subKey]);
+	}
+}
+
+let y10 = '---------------'
+console.log(y10);
+let obj3 = {
+	1: {
+		1: 11,
+		2: 12,
+		3: 13,
+	},
+	2: {
+		1: 21,
+		2: 22,
+		3: 23,
+	},
+	3: {
+		1: 24,
+		2: 25,
+		3: 26,
+	},
+}
+let summm1 = 0;
+for(let onesum in obj3){
+	for(let twosum in obj3[onesum]){
+		summm1 += obj3[onesum][twosum];
+	}
+}
+console.log(summm1);
+
+let y11 = '---------------'
+console.log(y11);
+let obj4 = {
+	1: {
+		1: {
+			1: 111,
+			2: 112,
+			3: 113,
+		},
+		2: {
+			1: 121,
+			2: 122,
+			3: 123,
+		},
+	},
+	2: {
+		1: {
+			1: 211,
+			2: 212,
+			3: 213,
+		},
+		2: {
+			1: 221,
+			2: 222,
+			3: 223,
+		},
+	},
+	3: {
+		1: {
+			1: 311,
+			2: 312,
+			3: 313,
+		},
+		2: {
+			1: 321,
+			2: 322,
+			3: 323,
+		},
+	},
+}
+let summm2 = 0;
+for(let onesum in obj4){
+	for(let twosum in obj4[onesum]){
+		for(let threesum in obj4[onesum][twosum]) 
+		summm2 += obj4[onesum][twosum][threesum];
+		}
+	}
+console.log(summm2);	
