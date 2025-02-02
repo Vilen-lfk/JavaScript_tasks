@@ -157,12 +157,34 @@ console.log(mass1);
 
 let y1 = '------------';
 console.log(y1);
+let mass2 = [];
+let k2 = 1;
+
+for(let i = 0; i < 2; i++){
+	let r = [];
+	for(let j = 0; j < 2; j++){
+		let re = [];
+		for (let h = 0; h < 2; h++){
+			re.push(k2);
+			k2++;
+		}
+		r.push(re);	
+	}
+	mass2.push(r);
+}
+console.log(mass2)
+
 
 let y2 = '------------';
 console.log(y2);
+let ar1 = [];
+let k4 = 1;
 
-let y3 = '------------';
-console.log(y3);
-
-let y4 = '------------';
-console.log(y4);
+for (let i = 0; i < 3; i++) {
+	ar1[i] = [];
+	
+	for (let j = 0; j < 3; j++) {
+		ar1[i].push(k4);
+		k4++;
+	}
+}
