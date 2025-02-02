@@ -98,3 +98,71 @@ for (let i = 0; i < layers; i++) {
 }
 
 console.log(arr8);
+//174
+let j = 'задание 174';
+console.log(j);
+let arr5 = [];
+
+for (let i = 0; i < 4; i++) {
+	arr5[i] = [];
+
+	for (let j = 1; j < 5; j++) {
+		arr5[i].push(j);
+	}
+}
+console.log(arr5);
+
+let p = '------------'
+console.log(p);
+
+let ar = [];
+
+for (let i = 0; i < 3; i++) {
+	ar[i] = [];
+	
+	for (let j = 1; j <= 5; j++) {
+		ar[i].push(j);
+	}
+}
+
+console.log(ar);
+
+//175
+let j1 = 'задание 175';
+console.log(j1)
+let mass = [];
+let k = 1; // счетчик
+
+for (let i = 0; i < 4; i++ ){
+	mass[i] = [];
+	for (let j = 0; j < 2; j++){
+		mass[i].push(k); // записываем счетчик
+		k++; // увеличиваем счетчик на 1
+	}
+}
+console.log(mass);
+
+let y = '------------';
+console.log(y);
+let mass1 = [];
+let k1 = 2;
+for (let i = 0; i < 4; i++){
+	mass1[i] = [];
+	for(let j = 0; j < 3; j++){
+		mass1[i].push(k1);
+		k1= k1 + 2;
+	}
+}
+console.log(mass1);
+
+let y1 = '------------';
+console.log(y1);
+
+let y2 = '------------';
+console.log(y2);
+
+let y3 = '------------';
+console.log(y3);
+
+let y4 = '------------';
+console.log(y4);
