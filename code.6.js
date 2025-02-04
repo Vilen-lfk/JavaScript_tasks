@@ -341,3 +341,44 @@ console.log(result1);
 //186
 let ap = '186 задания';
 console.log(ap);
+console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+
+//187
+let vilen = '187 задание';
+console.log(vilen); 
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1,100));
+
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let elnur = [];
+for(i = 0; i < 10; i++){
+	elnur.push(getRandomInt(1,100));
+}
+console.log(elnur);
+//188
+let ai = '188 задание';
+console.log(ai);
+
+let a = 8;
+let b = 12;
+let modul = a - b;
+console.log(Math.abs(modul));
+
+//189
+let errr = '189 задание';
+console.log(errr);
+
+let sty = 'js';
+let str = sty.toUpperCase();
+console.log(str);
+console.log(str.toLowerCase());
+
+//190
+let errt = '190 задание';
+console.log(errt);
+
