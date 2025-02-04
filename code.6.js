@@ -177,3 +177,167 @@ console.log(totalSalary);
 //181
 let v = '181 задание'
 console.log(v)
+let months = {
+	'ru': [
+		'январь',
+		'февраль',
+		'март',
+		'апрель',
+		'май',
+		'июнь',
+		'июль',
+		'август',
+		'сентябрь',
+		'октябрь',
+		'ноябрь',
+		'декабрь',
+	],
+	'en': [
+		'january',
+		'february',
+		'march',
+		'april',
+		'may',
+		'june',
+		'july',
+		'august',
+		'september',
+		'october',
+		'november',
+		'december',
+	],
+};
+let lang = 'ru'; 
+let month = 5;
+console.log(months[lang][month]);
+let df = '--------';
+console.log(df);
+let affairs = {
+	'2018': {
+		11: {
+			29: ['дело111', 'дело112', 'дело113'],
+			30: ['дело121', 'дело122', 'дело123'],
+		},
+		12: {
+			30: ['дело211', 'дело212', 'дело213'],
+			31: ['дело221', 'дело222', 'дело223'],
+		},
+	},
+	'2019': {
+		12: {
+			29: ['дело311', 'дело312', 'дело313'],
+			30: ['дело321', 'дело322', 'дело323'],
+			31: ['дело331', 'дело332', 'дело333'],
+		}
+	},
+}
+let year = '2019';
+let month1 = 12;
+let day = 30;
+let delo = 0;
+console.log(affairs[year][month1][day][delo]);
+
+//182
+let vb = '182 задание'
+console.log(vb);
+let employ = [
+	{
+		name: 'name1',
+		salary: 300,
+		age: 28,
+	},
+	{
+		name: 'name2',
+		salary: 400,
+		age: 29,
+	},
+	{
+		name: 'name3',
+		salary: 500,
+		age: 30,
+	},
+];
+employ.push({
+	name: 'name4',
+	salary: 600,
+	age: 31,
+})
+console.log(employ)
+
+//183
+let bn = '183 задание';
+console.log(bn);
+let affair = {
+	'2019-12-28': ['data11', 'data12', 
+		'data13'], 
+	'2019-12-29': ['data21', 'data22', 
+		'data23'], 
+	'2019-12-30': ['data31', 'data32', 
+		'data33'], 
+}
+affair['2019-12-29'].push('data14');
+affair['2019-12-31'] = [];
+affair['2019-12-31'].push('data34', 'data35');
+console.log(affair)
+
+let student = {
+	'group1': {
+		'subgroup11': ['student111', 'student112', 'student113'],
+		'subgroup12': ['student121', 'student122', 'student123'],
+	},
+	'group2': {
+		'subgroup21': ['student211', 'student212', 'student213'],
+		'subgroup22': ['student221', 'student222', 'student223'],
+	},
+	'group3': {
+		'subgroup31': ['student311', 'student312', 'student313'],
+		'subgroup32': ['student321', 'student322', 'student323'],
+	},
+};
+student.group1.subgroup11.push('studenr114');
+console.log(student);
+
+//184
+let ui = '184 задание';
+console.log(ui);
+let numberone = 2;
+let stepen = 10;
+let numbertwo = 245;
+console.log(Math.pow(numberone, stepen));
+console.log(Math.sqrt(numbertwo));
+
+let yu='----------------';
+console.log(yu);
+
+let mass = [4, 2, 5, 19, 13, 0, 10]
+let summ = 0;
+for (i = 0; i < mass.length; i++) {
+	summ += Math.pow(mass[i], 3);
+}
+let result = Math.sqrt(summ);
+console.log(summ);
+console.log(result);
+
+//185
+let app = '185 задания';
+console.log(app);
+
+let kuy = 379;
+let raw = Math.sqrt(kuy);
+let ray = Math.round(raw)
+let ryw = raw.toPrecision(3);
+let ry = raw.toPrecision(4);
+console.log(raw,',', ray, ',' , ryw, ',' , ry);
+const number = 587;
+const sqrtValue = Math.sqrt(number);
+
+const result1 = {
+    floor: Math.floor(sqrtValue),
+    ceil: Math.ceil(sqrtValue)
+};
+
+console.log(result1);
+
+//186
+let ap = '186 задания';
+console.log(ap);
