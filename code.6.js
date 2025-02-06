@@ -381,4 +381,80 @@ console.log(str.toLowerCase());
 //190
 let errt = '190 задание';
 console.log(errt);
+let java = 'я учу javascript!';
+//1-й способ
+let sub = java.substr(2, 3);
+let subm = java.substr(6, 10);
+console.log(sub, subm);
+//2-й способ
+let sub1 = java.substring(2,5);
+let subm1 = java.substring(6);
+console.log(sub1, subm1);
+//3-й способ
+let sub2 = java.slice(2,5);
+let subm2 = java.slice(6);
+console.log(sub2, subm2);
+
+//191
+let bmw = '191 задание';
+console.log(bmw);
+let res = 'http://lkvndvndl'.includes('http://');
+
+let stri = '0abcde';
+let res1 = stri.startsWith('abc');
+
+console.log(res, res1);
+
+let pot = '------------';
+console.log(pot);
+let str1 = 'fssmwpg html';
+let str2 = 'ljoiubukuk';
+let res3 = str2.endsWith('html'); 
+let res2 = str1.endsWith('html');
+console.log(res2, res3);
+
+//192
+//Дана строка '1-2-3-4-5'. Поменяйте все дефисы на точки.
+let desk = '192 задание';
+console.log(desk);
+let vil = '1-2-3-4-5';
+while (vil.includes('-')){
+	vil = vil.replace('-', '.');
+}
+console.log(vil);
+
+//193
+let sto = '193 задание';
+console.log(sto);
+let vil1 = '1-2-3-4-5';
+let str3 = vil1.split('-');
+console.log(str3);
+
+let vil2 = '12345';
+let str4 =  vil2.split('');
+console.log(str4);
+
+let arr = [1, 2, 3, 4, 5];
+let ter = arr.join('-');
+console.log(ter);
+
+//194
+let ty = '194 задание';
+console.log(ty);
+let vlad = [1, 2, 3];
+let vlad1 = vlad.shift();
+console.log(vlad1);
+
+let vlad2 = [1, 2, 3];
+let vlad3 = vlad2.pop();
+console.log(vlad3);
+
+let edem = [1, 2, 3];
+let evsv = edem.push(4, 5, 6);
+console.log(edem );
+//195 
+
+
+
+
 
