@@ -452,9 +452,48 @@ console.log(vlad3);
 let edem = [1, 2, 3];
 let evsv = edem.push(4, 5, 6);
 console.log(edem );
+
 //195 
+let tyf = '195 задание';
+console.log(tyf);
+let ass = [1, 2, 3, 4, 5];
+let subp = ass.slice(0, 3);
+let sup = ass.slice(3, 5);
+//Метод slice вырезает и возвращает указанную часть массива. 
+console.log(subp);
+console.log(sup);
 
+//196
+let iy = '196 задание';
+console.log(iy);
+//Метод splice удаляет или добавляет элементы в массив. 
+let gu = ass.splice(1,2);
+console.log(ass);
+let rrr = [1, 2, 3, 4, 5];
+let dff = rrr.splice(3, 0, 'a', 'b', 'c');
+console.log(rrr);
+let rr = [1, 2, 3, 4, 5];
+let dfg = rr.splice(1, 0, 'a', 'b');
+// вставляем данные исходя уже из этого массива
+//let dfg = rr.splice(1, 0, 'a', 'b');
+dfg = rr.splice(6, 0, 'c');
+dfg = rr.splice(8, 0, 'e');
+console.log(rr)
 
+//197
+let h = '197 задание';
+console.log(h);
+let ss = [1, 2, 3, 4, 5]
+// метод includes проверяет наличие жлемента в массиве
+let resh = ss.includes(3)
+console.log('Наличие 3 в массиве:', resh);
+
+let ss1 = [1, 2, 3, 4, 5]
+let resh1 = ss1.find(function(ele) {
+	return ele == 3;
+});
+console.log('Найти 3 в массиве.', 'Нашел:', resh1);
+//НЕ ПРАВИЛЬНО
 
 
 
