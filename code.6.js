@@ -493,7 +493,23 @@ let resh1 = ss1.find(function(ele) {
 	return ele == 3;
 });
 console.log('Найти 3 в массиве.', 'Нашел:', resh1);
-//НЕ ПРАВИЛЬНО
 
+//198
+let h1 = '198 задание';
+console.log(h1);
+let obj = {a: 1, b: 2, c: 3};
+console.log(Object.keys(obj))
 
+//199
+let h2 = '199 задание';
+console.log(h2);
 
+let numm = 12345;
+let arrr = String(numm).split('');
+
+let sum5 = 0;
+for (let digit of arr) {
+    sum5 += Number(digit);
+}
+
+console.log(sum5); // Выведет 15
