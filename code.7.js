@@ -75,3 +75,21 @@ func();
 3
 0 
 */
+//205
+console.log('205 задание')
+function func(num){
+	return num ** 3
+}
+let res = func(3);
+console.log(res)
+
+console.log('-----------')
+function kor(number){
+	return Math.sqrt(number)
+}
+let res1 = kor(4);
+let res2 = kor(9)
+let result = res1 + res2
+console.log(res1)
+console.log(res2)
+console.log('Сумма результатов:' , result)
