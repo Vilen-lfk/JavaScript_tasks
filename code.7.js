@@ -119,3 +119,43 @@ function round(num) {
 }
 let le = round(sum(sqrt(2), sqrt(3), sqrt(4)));
 console.log(le)
+
+//207
+console.log('207 задание')
+function func(num) {
+	return num;
+	
+	let res4 = num ** 2;
+	return res;
+}
+
+console.log( func(3) );
+/* Функция возвращает 3, потому что выполнение завершается на первом 
+return, и остальной код не выполняется.*/
+console.log('-------------------');
+function func(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	} else {
+		return num ** 2;
+	}
+}
+
+console.log( func(10) );
+console.log( func(-5) );
+
+console.log('-------------------');
+function func(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	}
+	
+	return num ** 2;
+}
+
+console.log( func(10) );
+console.log( func(-5) );
+/*тоже самое что и во втором коде*/
+
+//208
+console.log('208 задание');
