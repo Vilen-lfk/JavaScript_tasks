@@ -93,3 +93,29 @@ let result = res1 + res2
 console.log(res1)
 console.log(res2)
 console.log('Сумма результатов:' , result)
+
+//206
+console.log('206 задание')
+
+function sqrt(num) {
+	return Math.sqrt(num);
+}
+
+function round(num) {
+	return num.toFixed(3);
+}
+let dasha = round(sqrt(2));
+console.log(dasha);
+console.log('----------------');
+function sqrt(num) {
+	return Math.sqrt(num);
+}
+
+function sum(num1, num2, num3) {
+	return num1 + num2 + num3;
+} 
+function round(num) {
+	return num.toFixed(3);
+}
+let le = round(sum(sqrt(2), sqrt(3), sqrt(4)));
+console.log(le)
